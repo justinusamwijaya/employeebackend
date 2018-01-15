@@ -55,7 +55,7 @@ module.exports = function(passport){
                 address : req.body.address,
                 phoneNumber : req.body.phoneNumber,
                 salary : req.body.salary,
-                profile : "http://localhost:3000/profile/" + imageName
+                profile : "https://namanyalah.herokuapp.com/profile/" + imageName
             });
             
             newObj.save((error) => {
