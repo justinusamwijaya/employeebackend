@@ -67,7 +67,7 @@ app.post("/api/validate",passport.authenticate("auth",{session:false}),(req,res)
 })
 
 app.get("/",(req,res) => {
-    res.send("REDEH!")
+    res.send("REDEH!");
 })
 
 app.use("/api/employee", employeeRoutes(passport));
