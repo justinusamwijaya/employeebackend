@@ -13,6 +13,6 @@ const employeeSchema = new Schema({
     profile : String
 });
 
-const Employee = mongoose.model("HALO_KAK_HASBI_:D__", employeeSchema);
+const Employee = mongoose.model("begekuadrat", employeeSchema);
 
 module.exports = Employee;
