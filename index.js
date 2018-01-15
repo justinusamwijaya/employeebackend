@@ -69,4 +69,4 @@ app.post("/api/validate",passport.authenticate("auth",{session:false}),(req,res)
 app.use("/api/employee", employeeRoutes(passport));
 app.use("/api/user", userRoutes);
 
-app.listen(3000);
+app.listen(process.env.PORT||3000);
